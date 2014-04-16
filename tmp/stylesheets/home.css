@@ -1,0 +1,78 @@
+/* line 9, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index .content p strong {
+  text-transform: lowercase; }
+/* line 11, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index .content .intro {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: em-calc(35); }
+/* line 15, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index .content .intro * {
+  text-align: center; }
+/* line 21, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index .content .who-am-i .short-bio {
+  margin-bottom: em-calc(14); }
+/* line 23, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index .content .who-am-i #what-i-do {
+  list-style: none;
+  *zoom: 1; }
+  /* line 4, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+  .index .content .who-am-i #what-i-do:before, .index .content .who-am-i #what-i-do:after {
+    content: " ";
+    display: table; }
+  /* line 5, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+  .index .content .who-am-i #what-i-do:after {
+    clear: both; }
+  /* line 27, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+  .index .content .who-am-i #what-i-do li {
+    height: em-calc(200);
+    width: em-calc(300);
+    border: 3px double #eee;
+    border-radius: 6px;
+    padding-top: em-calc(25);
+    float: left;
+    margin-right: em-calc(35);
+    text-align: center; }
+    /* line 36, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .who-am-i #what-i-do li:last-child {
+      margin: 0; }
+    /* line 40, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .who-am-i #what-i-do li img {
+      display: block;
+      margin: auto; }
+    /* line 45, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .who-am-i #what-i-do li strong {
+      display: block;
+      margin-top: em-calc(10);
+      text-transform: lowercase; }
+/* line 54, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index .content .work-and-reading {
+  margin-top: em-calc(14); }
+  /* line 57, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+  .index .content .work-and-reading p {
+    border-bottom: 1px dotted #ccc; }
+  /* line 62, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+  .index .content .work-and-reading .currently-reading .book {
+    *zoom: 1;
+    line-height: em-calc(20);
+    padding-bottom: em-calc(6); }
+    /* line 4, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .work-and-reading .currently-reading .book:before, .index .content .work-and-reading .currently-reading .book:after {
+      content: " ";
+      display: table; }
+    /* line 5, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .work-and-reading .currently-reading .book:after {
+      clear: both; }
+    /* line 67, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .work-and-reading .currently-reading .book img {
+      float: left;
+      padding-right: em-calc(10); }
+    /* line 68, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .work-and-reading .currently-reading .book span {
+      display: block; }
+    /* line 70, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+    .index .content .work-and-reading .currently-reading .book:last-child {
+      padding: 0; }
+
+/* line 76, /Volumes/NO NAME/projects/966/source/stylesheets/home.scss */
+.index footer {
+  margin-top: em-calc(46); }
