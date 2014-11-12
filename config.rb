@@ -61,10 +61,10 @@ activate :blog do |blog|
    blog.default_extension = ".markdown"
 
    blog.tag_template = "tag.html"
-   #blog.calendar_template = "calendar.html"
+   blog.calendar_template = "calendar.html"
 
-   #blog.paginate = true
-   #blog.per_page = 10
+   blog.paginate = true
+   blog.per_page = 10
    blog.page_link = "page/:num"
    blog.permalink = "blog/:year/title.html"
 end
