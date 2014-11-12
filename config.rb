@@ -56,17 +56,17 @@ activate :blog do |blog|
    blog.summary_length = 250
    blog.default_extension = ".md"
 
-   #blog.taglink = "tags/:tag.html"
-   #blog.year_link = ":year.html"
+   blog.taglink = "tags/:tag.html"
+   blog.year_link = ":year.html"
    #blog.month_link = ":year/:month.html"
    #blog.day_link = ":year/:month/:day.html"
 
    #blog.tag_template = "tag.html"
-   #blog.calendar_template = "calendar.html"
+   blog.calendar_template = "calendar.html"
 
-   #blog.paginate = true
-   #blog.per_page = 10
-   #blog.page_link = "page/:num"
+   blog.paginate = true
+   blog.per_page = 10
+   blog.page_link = "page/:num"
 end
 
 
