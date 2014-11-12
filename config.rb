@@ -3,9 +3,9 @@
 ###
 
 # Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
+ compass_config do |config|
+   config.output_style = :compact
+ end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -49,24 +49,24 @@ page '/comingsoon.html', :layout => "comingsoon"
 # Activate blogging
 
 activate :blog do |blog|
-   page "blog/*", :layout=> :article_layout
-   blog.prefix = ""
-   blog.sources = ":year-:month-:day-:title.html"
-   blog.taglink = "tags/:tag.html"
+   blog.sources = "posts/:year-:month-:day-:title.html"
+   blog.permalink = "blog/:year/:title.html"
+   blog.layout = "article_layout"
    blog.summary_separator = /(READMORE)/
    blog.summary_length = 250
-   blog.year_link = ":year.html"
-   blog.month_link = ":year/:month.html"
-   blog.day_link = ":year/:month/:day.html"
-   blog.default_extension = ".markdown"
+   blog.default_extension = ".md"
 
-   blog.tag_template = "tag.html"
-   blog.calendar_template = "calendar.html"
+   #blog.taglink = "tags/:tag.html"
+   #blog.year_link = ":year.html"
+   #blog.month_link = ":year/:month.html"
+   #blog.day_link = ":year/:month/:day.html"
 
-   blog.paginate = true
-   blog.per_page = 10
-   blog.page_link = "page/:num"
-   blog.permalink = "blog/:year/title.html"
+   #blog.tag_template = "tag.html"
+   #blog.calendar_template = "calendar.html"
+
+   #blog.paginate = true
+   #blog.per_page = 10
+   #blog.page_link = "page/:num"
 end
 
 

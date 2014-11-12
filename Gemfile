@@ -4,7 +4,7 @@ ruby '2.1.2'
 gem "middleman-gh-pages"
 gem "middleman-imageoptim", "~> 0.1.4"
 
-gem 'middleman', '~>3.1.6'
+gem 'middleman', '~>3.3'
 gem "middleman-blog"
 gem 'rack-contrib', '~> 1.1'
 
