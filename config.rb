@@ -37,7 +37,7 @@ page '/comingsoon.html', :layout => "comingsoon"
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-#activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -58,17 +58,19 @@ activate :blog do |blog|
 
    blog.taglink = "tags/:tag.html"
    blog.year_link = ":year.html"
-   #blog.month_link = ":year/:month.html"
-   #blog.day_link = ":year/:month/:day.html"
+   blog.month_link = ":year/:month.html"
+   blog.day_link = ":year/:month/:day.html"
 
-   #blog.tag_template = "tag.html"
-   #blog.calendar_template = "calendar.html"
+   blog.tag_template = "tag.html"
+   blog.calendar_template = "calendar.html"
 
    blog.paginate = true
    blog.per_page = 10
    blog.page_link = "page/:num"
 end
 
+# Use a custom layout for everything under /posts/
+ page "/posts", :layout => "posts"
 
 activate :directory_indexes
 
