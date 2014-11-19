@@ -6,6 +6,9 @@ gem "middleman-imageoptim", "~> 0.1.4"
 
 gem 'middleman', '~>3.3'
 gem "middleman-blog"
+gem "middleman-syntax"
+gem "redcarpet"
+gem "builder"
 gem 'rack-contrib', '~> 1.1'
 
 gem 'foreman'
