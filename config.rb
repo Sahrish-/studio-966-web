@@ -51,7 +51,7 @@ activate :livereload
 activate :blog do |blog|
    blog.sources = "posts/:year-:month-:day-:title.html"
    blog.permalink = "blog/:year/:title.html"
-   blog.layout = "article_layout"
+   blog.layout = "/blog/full_article"
    blog.summary_separator = /(READMORE)/
    blog.summary_length = 250
    blog.default_extension = ".md"
