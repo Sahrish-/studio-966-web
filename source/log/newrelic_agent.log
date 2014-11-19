@@ -110,3 +110,150 @@
 [07/22/14 11:23:18 +0000 precise64 (3818)] INFO : Doing deferred dependency-detection before Rack startup
 [07/22/14 11:23:20 +0000 precise64 (3818)] ERROR : Invalid license key, please contact support@newrelic.com
 [07/22/14 11:23:20 +0000 precise64 (3818)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[11/19/14 08:25:21 +0000 abdullah (986)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:25:21 +0000 abdullah (986)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:25:21 +0000 abdullah (986)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:25:21 +0000 abdullah (986)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:25:21 +0000 abdullah (986)] INFO : Environment: development
+[11/19/14 08:25:21 +0000 abdullah (986)] INFO : No known dispatcher detected.
+[11/19/14 08:25:21 +0000 abdullah (986)] INFO : Application: development
+[11/19/14 08:25:21 +0000 abdullah (986)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:25:22 +0000 abdullah (986)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:25:22 +0000 abdullah (986)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:25:22 +0000 abdullah (986)] INFO : Installing Net instrumentation
+[11/19/14 08:25:22 +0000 abdullah (986)] INFO : Finished instrumentation
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:25:36 +0000 abdullah (1539)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:25:36 +0000 abdullah (1539)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Environment: development
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : No known dispatcher detected.
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Application: development
+[11/19/14 08:25:36 +0000 abdullah (1539)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Installing Net instrumentation
+[11/19/14 08:25:36 +0000 abdullah (1539)] INFO : Finished instrumentation
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:26:31 +0000 abdullah (2650)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:26:31 +0000 abdullah (2650)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Environment: development
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : No known dispatcher detected.
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Application: development
+[11/19/14 08:26:31 +0000 abdullah (2650)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Installing Net instrumentation
+[11/19/14 08:26:31 +0000 abdullah (2650)] INFO : Finished instrumentation
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:26:46 +0000 abdullah (3150)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:26:46 +0000 abdullah (3150)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Environment: development
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : No known dispatcher detected.
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Application: development
+[11/19/14 08:26:46 +0000 abdullah (3150)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Installing Net instrumentation
+[11/19/14 08:26:46 +0000 abdullah (3150)] INFO : Finished instrumentation
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:29:14 +0000 abdullah (5501)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:29:14 +0000 abdullah (5501)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Environment: development
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : No known dispatcher detected.
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Application: development
+[11/19/14 08:29:14 +0000 abdullah (5501)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Installing Net instrumentation
+[11/19/14 08:29:14 +0000 abdullah (5501)] INFO : Finished instrumentation
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:29:24 +0000 abdullah (5977)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:29:24 +0000 abdullah (5977)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Environment: development
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : No known dispatcher detected.
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Application: development
+[11/19/14 08:29:24 +0000 abdullah (5977)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Installing Net instrumentation
+[11/19/14 08:29:24 +0000 abdullah (5977)] INFO : Finished instrumentation
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:31:38 +0000 abdullah (8532)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:31:38 +0000 abdullah (8532)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Environment: development
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : No known dispatcher detected.
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Application: development
+[11/19/14 08:31:38 +0000 abdullah (8532)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Installing Net instrumentation
+[11/19/14 08:31:38 +0000 abdullah (8532)] INFO : Finished instrumentation
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:33:16 +0000 abdullah (10259)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:33:16 +0000 abdullah (10259)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Environment: development
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : No known dispatcher detected.
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Application: development
+[11/19/14 08:33:16 +0000 abdullah (10259)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Installing Net instrumentation
+[11/19/14 08:33:16 +0000 abdullah (10259)] INFO : Finished instrumentation
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:33:40 +0000 abdullah (10888)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:33:40 +0000 abdullah (10888)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Environment: development
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : No known dispatcher detected.
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Application: development
+[11/19/14 08:33:40 +0000 abdullah (10888)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Installing Net instrumentation
+[11/19/14 08:33:40 +0000 abdullah (10888)] INFO : Finished instrumentation
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:34:00 +0000 abdullah (11447)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:34:00 +0000 abdullah (11447)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Environment: development
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : No known dispatcher detected.
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Application: development
+[11/19/14 08:34:00 +0000 abdullah (11447)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Installing Net instrumentation
+[11/19/14 08:34:00 +0000 abdullah (11447)] INFO : Finished instrumentation
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:34:14 +0000 abdullah (11934)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:34:14 +0000 abdullah (11934)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Environment: development
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : No known dispatcher detected.
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Application: development
+[11/19/14 08:34:14 +0000 abdullah (11934)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Installing Net instrumentation
+[11/19/14 08:34:14 +0000 abdullah (11934)] INFO : Finished instrumentation
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Starting the New Relic agent in "development" environment.
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[11/19/14 08:34:37 +0000 abdullah (12589)] WARN : No configuration file found. Working directory = /home/vagrant/projects/studio-966-web/source
+[11/19/14 08:34:37 +0000 abdullah (12589)] WARN : Looked in these locations (based on defaults): /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/projects/studio-966-web/source/config/newrelic.yml, /home/vagrant/projects/studio-966-web/source/newrelic.yml, /home/vagrant/.newrelic/newrelic.yml, /home/vagrant/newrelic.yml
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Environment: development
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : No known dispatcher detected.
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Application: development
+[11/19/14 08:34:37 +0000 abdullah (12589)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'.
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Installing deferred Rack instrumentation
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Installing Rack::Builder middleware instrumentation
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Installing Net instrumentation
+[11/19/14 08:34:37 +0000 abdullah (12589)] INFO : Finished instrumentation
+[11/19/14 08:34:47 +0000 abdullah (12589)] INFO : Doing deferred dependency-detection before Rack startup
+[11/19/14 08:34:51 +0000 abdullah (12589)] ERROR : Invalid license key, please contact support@newrelic.com
+[11/19/14 08:34:51 +0000 abdullah (12589)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
