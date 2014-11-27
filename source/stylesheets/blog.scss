@@ -42,26 +42,10 @@
             height: 100%;
         }
     }
-@media screen and (min-width: 47.5em) {
-    .blog-sidebar {
+    .aside {
 	width: 32.22222%;
         float: left;
     }
-    }
-    .blog-sidebar .block {
-        position: relative;
-        margin: 0; }
-
-@media screen and (max-width: 47.5em) {
-    .blog-sidebar .block {
-	padding: 40px 0; }
-  
-   .blog-sidebar .block:last-child {
-        border-bottom: none; } }
-
-@media screen and (min-width: 47.5em) {
-   .blog-sidebar .block {
-	    padding: 23.07692% 0 23.07692% 23.07692%; } }
 
     h1{
         font-family: 'Exo',"Helvetica Neue", "Helvetica", sans-serif;
