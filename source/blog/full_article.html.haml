@@ -1,15 +1,19 @@
 = wrap_layout :layout do
   .row.full-width
     .large-8.columns.large-centered.post-top
-      .back-to-blog
-        = link_to 'Back to Blog', '/blog' 
-      .blog-date-author
-        =lorem.date
-        by Rami Taibah in Testing
-  .row.large-12.large-centered.post-thumbnail
+      %h6
+        .back-to-blog
+          = link_to 'Back to Blog', '/blog' 
+        .blog-date-author
+          =lorem.date
+        =current_page.data.author
   .row.article-title
     .large-8.columns.large-centered
       %article
         %h1
           = current_page.data.title
-        = yield 
+        = yield
+  %ul
+    - blog.tags.each do |tag, articles|
+      %li
+        %h5= tag

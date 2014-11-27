@@ -10,7 +10,7 @@ gem "middleman-syntax"
 gem "redcarpet"
 gem "builder"
 gem 'rack-contrib', '~> 1.1'
-
+gem 'nokogiri'
 gem 'foreman'
 
 gem 'puma'
