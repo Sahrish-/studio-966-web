@@ -257,3 +257,4 @@
 [11/19/14 08:34:47 +0000 abdullah (12589)] INFO : Doing deferred dependency-detection before Rack startup
 [11/19/14 08:34:51 +0000 abdullah (12589)] ERROR : Invalid license key, please contact support@newrelic.com
 [11/19/14 08:34:51 +0000 abdullah (12589)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[11/19/14 13:06:37 +0000 abdullah (12589)] INFO : Starting Agent shutdown

@@ -1,0 +1,48 @@
+!!! 5
+%html
+  %head
+    %meta{ charset: "utf-8" }
+
+    /Always force latest IE rendering engine or request Chrome Frame
+    %meta{ content: "IE=edge,chrome=1", "http-equic" => "X-UA-Compatible" }
+
+    -# Use title if it's in the page YAML frontmatter
+    %title= current_page.data.title || "966.io Studios | We Are The Best!"
+
+    -# Set the viewport width to device width for mobile
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0" }
+
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Lora:700italic", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Libre+Baskerville", type: "text/css" }
+    %link{ rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Crimson+Text|Pathway+Gothic+One", type: "text/css" }
+    = stylesheet_link_tag "application"
+
+  %body{class: page_classes }
+    = partial "layouts/unsupported_browsers"
+    = partial "layouts/header"
+    =yield
+    =partial "layouts/footer"
+
+    = javascript_include_tag "all"
+.blog-sidebar
+  .block.follow
+    %h3.blog-header Twitter
+      %p Follow us on Twitter for news and resources:
+      %a.twitter-follow-button{"data-dnt" => "true", "data-show-count" => "false", :href => "https://twitter.com/studio966"} Follow @Studio966
+      :javascript
+         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');    %a.twitter-timeline{"data-chrome" => "nofooter noheader transparent", "data-dnt" => "true", "data-link-color" => "#6e5eb2", "data-tweet-limit" => "3", "data-widget-id" => "426987516005072896", :href => "https://twitter.com/Studio966"} Tweets by @studio966
+     :javascript
+       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+     .block.categories
+         %h3.blog-header Categories
+         %ul
+           %li
+             %a{:href => "/category/article/"} Articles
+           %li
+             %a{:href => "/category/news/"} News
+           %li
+             %a{:href => "/category/resources/"} Resources
+           %li
+             %a{:href => "/category/tutorial/"} Tutorial
