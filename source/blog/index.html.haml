@@ -4,6 +4,15 @@
       .small-12.large-10.large-centered.columns
         %h1
           = link_to article.title, article
-        %p
-          This is a line. It is nothing more, nothing less. Let's see if it works. 
-        %img(src="images/products/currrva_logo.png") 
+.aside
+  .block.categories
+    %h3.blog-header Categories
+    %ul
+      %li
+        %a{:href => "/category/article/"} Articles
+      %li
+        %a{:href => "/category/news/"} News
+      %li 
+        %a{:href => "/category/resources"} Resources
+      %li 
+        %a{:href => "/category/tutorial/"} Tutorial
