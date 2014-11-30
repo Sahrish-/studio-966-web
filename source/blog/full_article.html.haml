@@ -1,6 +1,5 @@
 = wrap_layout :layout do
   .row.full-width
-    -br
     .large-8.columns.large-centered.post-top
       %h6
         .back-to-blog
@@ -14,7 +13,11 @@
         %h1
           = current_page.data.title
         = yield
-  %ul
+  %ul.inline-list
     - blog.tags.each do |tag, articles|
       %li
         %h5= tag
+        %ul.inline-list           
+          - articles.each do |article| 
+            %li
+              = link_to article.title, article.url
