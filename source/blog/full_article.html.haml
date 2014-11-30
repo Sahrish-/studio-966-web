@@ -1,23 +1,25 @@
 = wrap_layout :layout do
-  .row.full-width
-    .large-8.columns.large-centered.post-top
+  .row
+    .large-10.columns.large-centered.post-top
       %h6
         .back-to-blog
           = link_to 'Back to Blog', '/blog' 
         .blog-date-author
           =lorem.date
         =current_page.data.author
-  .row.article-title
-    .large-8.columns.large-centered
-      %article
-        %h1
-          = current_page.data.title
-        = yield
-  %ul.inline-list
-    - blog.tags.each do |tag, articles|
-      %li
-        %h5= tag
-        %ul.inline-list           
-          - articles.each do |article| 
-            %li
-              = link_to article.title, article.url
+      .row.article-title
+        .large-10.columns.large-centered
+          %article
+            %h1
+              = current_page.data.title
+            = yield
+    .large-2.columns
+      = partial "layouts/sidebar"
+      %ul.inline-list
+        - blog.tags.each do |tag, articles|
+          %li
+            %h5= tag
+            %ul.inline-list           
+              - articles.each do |article| 
+                %li
+                  = link_to article.title, article.url
