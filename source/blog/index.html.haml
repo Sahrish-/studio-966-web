@@ -6,15 +6,16 @@ per_page: 10
   .large-12.columns.large-centered.blog-main
     %h1
       The 966 Blog
+      %hr
 .row
   .large-8.columns.blog-main
     - page_articles.each_with_index do |article, i|
       %article
         .row
           .small-12.large-12.large-centered.columns
-            %h4
+            %h4.blog-date-author
               = link_to article.title, article
-            %h5
+            %h5.blog-date-author
               = article.date.strftime('%b %e')
               = article.data.author
             = article.summary(250)
